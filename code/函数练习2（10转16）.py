@@ -1,0 +1,5 @@
+a=int(input('请输入你要转化成十六进制的整数值：'))
+b=hex(a)
+print('你得到的数值是：',b)
+print('注：十六进制表示为0-9，a-f（0x为前缀）')
+input('press enter to exit')
