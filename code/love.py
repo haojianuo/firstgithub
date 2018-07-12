@@ -10,11 +10,10 @@ def LittleHeart():
 
 
 # 输入表白的语句，默认I Love you
-love = input('输入一句表白的话吧，默认为I Love you ')
+love = 'I Love you，LXJ'
 # 输入署名或者赠谁，没有不执行
-me = input('输入您的署名 ')
-if love == '':
-    love = 'I Love you'
+me = input(' 输入署名或者赠谁，否则给你看，哼！')
+    
 # 窗口大小
 turtle.setup(width=900, height=500)
 # 颜色
